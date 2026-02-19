@@ -34,8 +34,6 @@ import { ComingSoonContent } from './content/ComingSoonContent';
 // Token
 import { TokenOverviewContent } from './content/TokenOverviewContent';
 import { ClankerLaunchContent } from './content/ClankerLaunchContent';
-import { FoundationFundingContent } from './content/FoundationFundingContent';
-import { TokenomicsContent } from './content/TokenomicsContent';
 
 // Roadmap
 import { Phase1Content } from './content/Phase1Content';
@@ -264,24 +262,6 @@ export const router = createBrowserRouter([
               description="How $BLOX was deployed on Base via Clanker."
               crumbs={[{ label: '$BLOX Token' }, { label: 'Clanker Launch' }]}
               ContentComponent={ClankerLaunchContent}
-            />
-          },
-          {
-            path: 'token/foundation-funding',
-            element: <DocRoute
-              title="Trading Fees → Foundation"
-              description="How trading fees fund the ClawdBlox Foundation."
-              crumbs={[{ label: '$BLOX Token' }, { label: 'Foundation Funding' }]}
-              ContentComponent={FoundationFundingContent}
-            />
-          },
-          {
-            path: 'token/tokenomics',
-            element: <DocRoute
-              title="Tokenomics & Utility"
-              description="$BLOX token distribution, utility, and economic model."
-              crumbs={[{ label: '$BLOX Token' }, { label: 'Tokenomics' }]}
-              ContentComponent={TokenomicsContent}
             />
           },
 

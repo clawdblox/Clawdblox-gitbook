@@ -49,8 +49,6 @@ const navigation = [
     items: [
       { title: 'Token Overview', href: '/docs/token/overview' },
       { title: 'Clanker Launch on Base', href: '/docs/token/clanker-launch' },
-      { title: 'Trading Fees \u2192 Foundation', href: '/docs/token/foundation-funding' },
-      { title: 'Tokenomics & Utility', href: '/docs/token/tokenomics' },
     ],
   },
   {
@@ -74,9 +72,8 @@ const navigation = [
 ];
 
 const externalLinks = [
-  { title: 'Dashboard', url: 'https://dashboard.clawdblox.xyz' },
+  { title: 'Dashboard', url: 'https://clawdblox.xyz' },
   { title: 'Telegram', url: 'https://t.me/clawdblox' },
-  { title: 'Discord', url: 'https://discord.gg/clawdblox' },
   { title: 'GitHub', url: 'https://github.com/clawdblox' },
 ];
 

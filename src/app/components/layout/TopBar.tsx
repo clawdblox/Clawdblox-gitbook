@@ -10,8 +10,8 @@ export function TopBar({ toggleSidebar, onSearchClick }: { toggleSidebar: () => 
           <Menu size={20} />
         </button>
         <Link to="/" className="flex items-center gap-2 font-heading font-bold text-lg text-mw-text-primary">
-          <div className="w-6 h-6 rounded bg-gradient-to-br from-mw-accent-cyan to-mw-accent-violet"></div>
-          MemoryWeave
+          <img src="/logo.png" alt="Clawdblox" className="w-6 h-6" />
+          Clawdblox
         </Link>
       </div>
 
